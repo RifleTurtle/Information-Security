@@ -1,6 +1,6 @@
 # h1 - Hello world
 
-s) My first tast was
+a) My first tast was
 
 ## References
 
