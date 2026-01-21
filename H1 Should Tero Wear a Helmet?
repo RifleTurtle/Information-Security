@@ -1,0 +1,126 @@
+Threat Modelling
+-	Braiterman et al 2020: Threat modeling manifesto
+  o	Threat modelling is understanding a system and analysing it to detect security concerns
+    	Helps pinpoint vulnerabilities etc.
+    	Four questions
+        •	What are we working on?
+        •	What can go wrong?
+        •	What are we going to do about it?
+        •	Did we do a good enough job?
+  o	Best way to Threat Model is by early and frequent analysis of system’
+
+Threat Modelling Manifesto https://www.threatmodelingmanifesto.org/
+
+-	Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course
+  o	“We threat model to anticipate problems when it is inexpensive to deal with them”
+  o	Jotting ideas by sketching to demonstrate our thoughts to others with hopes of tackling the question “What are we working on?”
+  o	Data flow diagrams are useful as threats follow data
+  o	Five Elements of data flow diagram:
+    	External entities
+    	Processes
+    	Data flows
+    	Data storage
+    	Trust boundary
+  o	STRIDE problems that occur in systems
+Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course
+
+-	OWASP CheatSheets Series Team 2021
+  o	What are we working on?
+      	Understanding the system, you are building
+        •	What is its use and what it is comprised of
+        •	Clear objective 
+    o	What can go wrong?
+      	Understanding the vulnerabilities, challenges, and problems of the system
+    o	What are we going to do about it?
+      	Implementing risk mitigation
+        •	Classifying each risk by its impact and frequency
+        •	Steps to lowering the risks
+    o	Did we do a good enough job?
+      	Evaluation of the threat modelling job
+        •	Comparing results to goals, what could be done better, what was done well etc.
+CheatSheets Series Team 2021 https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+
+
+
+
+
+InfoSec Scene
+-	DarkNet Diaries EP  44: Zain
+  o	Episode talks about the rising of ransomware
+    	Virus that locks victims out of their device and demands payments for access again
+  o	A good example of how a teenager who used his hacking abilities along with Russian cyber criminals turned a cyber threat into a money-making scheme
+    	A “police” virus was used, because it shows police logo and a fake accusation to users
+    	Zain Qaiser spread the virus through advertisements on many websites which caught many victims
+    	Victims were falsely accused by what they thought was police of certain actions to make them feel guilty
+    	Victims were forced to pay to regain access
+    	Money was laundered using a third entity, a company using MoneyPak (money deposit service) and Liberty Reserve (payment processor that got shut down)
+    	Eventually Zain was caught and sentenced to several years in prison
+
+
+
+Security Hygiene
+-	Good practices that keep personal data safe, protects devices from threats, and mitigates any other cyber-related risks
+    o	Strong logins
+      	Long passwords with characters and symbols
+      	2-step authentication
+      	Other authentication methods
+    o	Data protection
+      	Safe password storage
+      	Keeping personal data to oneself
+      	Logging out when inactive
+    o	Threat protection
+      	Understanding and avoiding threats and traps
+      	Threat protection software (malwarebyet)
+
+-	Threat Modelling
+Data Storage Company (MaxiData Oy)
+•	A new and small company that stores date in warehouses/offices across Finland for individuals/companies.
+  (1) What are we working on?
+    	Our assets
+          	Physical data storages
+    	Security supports business
+        	Yes, as they are handling all forms of data, personal/confidential etc.
+    	Draw a diagram of the company systems
+
+	Customer is the king
+  	What do we have to do the serve the customer (to keep getting paid)
+    	Provide an accessible and easy to use data storage service at low rates to offer a stress-free experience for customers
+  	How does customer see our systems? Touchpoints?
+    	First touchpoints are of course from advertisements
+    	Customers interact when choosing a membership/purchasing plan
+    	Engage every time they store, remove, access data
+
+
+(2) What can go wrong?
+  	STRIDE
+    	Tampering
+      	Data is corrupted and therefor unusable 
+    	Information disclosure
+      	Non-authorized personnel enter data warehouse
+    	Denial of Service
+      	Hackers block access to database, halting the flow of data
+	Priorize biggest risks
+  	Unauthorized access/ data breach
+  	Internal threats
+    	Employees may exploit or tamper with data
+  	Faulty data storage methods
+	Are you targetted by specific threat actors? Are there actors that target your geographical or political area or industry?
+  	Targeted for holding mass data, which could be obtained my hackers and sold, or corrupted to cause chaos
+	Business continuity
+  	Though some risks are unavoidable, bigger risks must be avoided as they hold the responsibility for other businesses and private individual
+  	Failure can lead to negative reputation and legal complications
+
+(3) What are we going to do about it?
+  	The easiest thing to start with is limiting risks in the physical sites
+      	Better security
+      	Employee awareness of in-person breaches
+      	Regular checkups and maintenance of assets
+  	The systems should be well designed by experienced individuals and tested
+  	Backups should be utilized, even if it costs a lot
+  	The only options are to Mitigate and Eliminate
+    	Company can not shift blame customers/stakeholders, and there is no room to accept errors
+(4) Did we do a good enough job?
+	Assessment of physical and online security. Logs of data leaks/breaches and a tech team. Frequent and thorough evaluation
+Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/
+
+
