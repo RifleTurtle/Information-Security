@@ -73,6 +73,7 @@ o	Threat protection
 -	Threat Modelling
 Data Storage Company (MaxiData Oy)
 •	A new and small company that stores date in warehouses/offices across Finland for individuals/companies.
+
 (1) What are we working on?
 	Our assets
 	Physical data storages
@@ -87,6 +88,7 @@ Data Storage Company (MaxiData Oy)
 	First touchpoints are of course from advertisements
 	Customers interact when choosing a membership/purchasing plan
 	Engage every time they store, remove, access data
+
 (2) What can go wrong?
 	STRIDE
 	Tampering
@@ -105,6 +107,7 @@ Data Storage Company (MaxiData Oy)
 	Business continuity
 	Though some risks are unavoidable, bigger risks must be avoided as they hold the responsibility for other businesses and private individual
 	Failure can lead to negative reputation and legal complications
+
 (3) What are we going to do about it?
 	The easiest thing to start with is limiting risks in the physical sites
 	Better security
@@ -114,6 +117,7 @@ Data Storage Company (MaxiData Oy)
 	Backups should be utilized, even if it costs a lot
 	The only options are to Mitigate and Eliminate
 	Company can not shift blame customers/stakeholders, and there is no room to accept errors
+
 (4) Did we do a good enough job?
 	Assessment of physical and online security. Logs of data leaks/breaches and a tech team. Frequent and thorough evaluation
 Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/
