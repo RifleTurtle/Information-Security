@@ -1,22 +1,33 @@
 Threat Modelling
 -	Braiterman et al 2020: Threat modeling manifesto
+-	
   o	Threat modelling is understanding a system and analysing it to detect security concerns
+ 	
     	Helps pinpoint vulnerabilities etc.
+ 	
     	Four questions
+ 	
         •	What are we working on?
         •	What can go wrong?
         •	What are we going to do about it?
         •	Did we do a good enough job?
+ 	
   o	Best way to Threat Model is by early and frequent analysis of system’
 
 Threat Modelling Manifesto https://www.threatmodelingmanifesto.org/
 
 -	Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course
+-	
   o	“We threat model to anticipate problems when it is inexpensive to deal with them”
+ 	
   o	Jotting ideas by sketching to demonstrate our thoughts to others with hopes of tackling the question “What are we working on?”
+  
   o	Data flow diagrams are useful as threats follow data
+  
   o	Five Elements of data flow diagram:
+  
     	External entities
+    
     	Processes
     	Data flows
     	Data storage
